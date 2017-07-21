@@ -1,0 +1,8 @@
+test:
+  string: application-dev.yml config value
+
+logging:
+  file:
+  path:
+  level:
+    root: info

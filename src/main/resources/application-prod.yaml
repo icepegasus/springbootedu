@@ -1,0 +1,9 @@
+test:
+  string: application-prod.yml config value
+  
+  
+logging:
+  file: 
+  path: C:\spring-boot\log\
+  level:
+    root: info

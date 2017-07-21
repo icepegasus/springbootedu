@@ -1,0 +1,33 @@
+management:
+  security:
+    enabled: false
+    
+security:
+  user:
+    name: admin
+    password: admin
+
+spring:
+  application:
+    admin:
+      enabled: true
+  
+  #app. 올라갈때 servlet 도 같이올라가라는 설정  
+  mvc:
+    servlet:
+      load-on-startup: 0
+  h2:
+    console:
+      enabled: true
+
+#logging:
+#  file: C:\spring-boot\log\spring-boot.log
+#  path: C:\spring-boot\log\
+#  level:
+#    root: info
+    
+test:
+  string: application.yml config value  
+  
+
+        
